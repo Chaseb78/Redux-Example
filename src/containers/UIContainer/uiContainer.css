@@ -1,0 +1,8 @@
+.uiformat {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 43%;
+  text-align: center;
+}

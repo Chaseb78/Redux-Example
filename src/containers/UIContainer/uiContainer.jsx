@@ -1,4 +1,5 @@
 import React from 'react';
+import './uiContainer.css';
 import { connect } from 'react-redux';
 
 const UIContainer = ({
@@ -13,7 +14,7 @@ const UIContainer = ({
   currentAmount,
 }) => {
   return (
-    <div>
+    <div className="uiformat">
       <h1> Redux Example </h1>
       <h3>{currentName}</h3>
       <h3>{currentWeight}</h3>
